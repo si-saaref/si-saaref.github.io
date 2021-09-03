@@ -5,6 +5,8 @@ menu.addEventListener('click', function () {
     navlink.classList.toggle('slide')
 })
 
+
+
 $(window).on('load', function () {
     $('.jumbodesc h3 span').each(function (i) {
         setTimeout(function () {
@@ -12,6 +14,8 @@ $(window).on('load', function () {
         }, 200 * (i+1))
     })
 })
+
+
 
 // const nameJumbo = document.querySelectorAll('.jumbodesc h3 span');
 // nameJumbo.forEach(function (elem) {
@@ -36,12 +40,16 @@ h1Drag.addEventListener('mousemove', function (e) {
     // h1Drag.style.transform = 'rotate3d('+degX+','+degY+','+deg+'deg)'
 })
 
+
+
 // const pageClick = document.querySelectorAll('.page-click');
 // pageClick.forEach(function (el) {
 //     el.addEventListener('click', function () {
 //         console.log(el);
 //     })
 // })
+
+
 
 $(window).scroll(function () {
     const winScroll = $(this).scrollTop();
