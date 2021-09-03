@@ -1,206 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>My Portofolio</title>
-
-    <!-- Bootstrap Offline-->
-    <!-- <link href="/bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" href="bootstrap-5.1.0-dist/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="style.css">
-
-    <!-- BOOTSTRAP ONLINE CDN -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-        integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css"
-        integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
-
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
-        integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous">
-    </script>
-    <!-- Last -->
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css-reset.css">
+    <link rel="stylesheet" href="WEB.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Leckerli+One&family=NTR&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
 </head>
-
-<body id="home">
+<body id="body">
     <!-- Navbar -->
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="#home" class="navbar-brand page-scroll">KSEI AkSES</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a class="page-scroll" href="#about">About</a></li>
-                    <li><a class="page-scroll" href="#portofolio">Portofolio</a></li>
-                    <li><a class="page-scroll" href="#contact">Contact</a></li>
+    <span id="dropHeader"></span>
+    <nav>
+        <div class="container">
+            <div class="header-logo">Si-Saaref</div>
+            <div class="header-link">
+                <ul>
+                    <li><a class="page-click" href="#body">Home</a></li>
+                    <li><a class="page-click" href="#about">About</a></li>
+                    <li><a class="page-click" href="#gallery">Gallery</a></li>
+                    <li><a class="page-click" href="#contact">Contact</a></li>
                 </ul>
+            </div>
+            <div class="menu-bar">
+                <i></i>
+                <i></i>
+                <i></i>
             </div>
         </div>
     </nav>
-    <!-- Akhir NavBar -->
-    <!-- Jumbotron -->
-    <div class="jumbotron text-center">
-        <!-- <img src="../../Gallery/IMG/Full/gans 600.png 120.png" alt="" class="img-circle"> -->
-        <img src="https://source.unsplash.com/random/120x60" alt="" class="img-circle">
-        <h1>Achmad Syarif Hidayatullah</h1>
-        <p>Web Developer | Fron-End Engineer | Dewan Pengawas Syariah</p>
-    </div>
-    <!-- Akhir Jumbortron -->
+
+    <!-- Home -->
+    <section class="jumbotron" id="jumbotron">
+        <div class="container-fluid">
+            <div class="jumbologo">
+                <h1>S<span></span></h1>
+            </div>
+            <div class="jumbodesc">
+                <h3>
+                    <span>A</span>
+                    <span>C</span>
+                    <span>H</span>
+                    <span>M</span>
+                    <span>A</span>
+                    <span>D</span>
+                </h3>
+                <h3>
+                    <span>S</span>
+                    <span>Y</span>
+                    <span>A</span>
+                    <span>R</span>
+                    <span>I</span>
+                    <span>F</span>
+                </h3>
+                <hr>
+                <div class="job">
+                    <h6>Front-End Developer</h6>
+                    <h6>Economic Sharia Enthusiast</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About -->
     <section class="about" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="text-center">About</h2>
-                    <hr>
-                </div>
+            <div class="title">
+                <h1>It's Me</h1>
             </div>
-
             <div class="row">
-                <div class="col-sm-5 col-sm-offset-1 text-right">
-                    <p class="pKiri">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa suscipit enim
-                        dolorem eaque, sit deserunt beatae maxime neque rerum aspernatur iste, ad in exercitationem,
-                        facilis voluptatibus voluptates a! Cupiditate labore assumenda ipsam nemo minus voluptatum odio
-                        fugiat id quis nisi esse facilis, necessitatibus veniam corrupti reprehenderit debitis iure
-                        mollitia hic molestias harum provident. Ullam dolorum odio debitis, expedita qui nobis doloribus
-                        voluptate assumenda sed, animi repellat necessitatibus voluptatem magnam tenetur eligendi, dolor
-                        omnis molestiae accusamus! Hic molestias dolores quos praesentium?</p>
-                </div>
-                <div class="col-sm-5">
-                    <p class="pKanan">Lorem ipsum, dolor sit amet consectetur adipisicing elit. A rerum expedita
-                        laboriosam. Porro aliquam magnam quae doloremque eos consectetur optio adipisci vel pariatur,
-                        fugit hic ea aut, vitae omnis ipsa illum! Eaque non quas ipsa vel, sit neque ea veniam nemo in
-                        tenetur aut laudantium, vero aspernatur aliquid accusamus error omnis atque quia deleniti. Illum
-                        sit magnam, earum nulla modi sed nesciunt dicta quos est nam error unde beatae consequatur
-                        aspernatur minus nihil. Cumque similique vitae sequi quae molestias neque.</p>
-                </div>
+                <img id="aboutPhoto" src="img/stickman1.png" alt="">
+                <!-- <img src="img/NicePng_girl-stick-figure-png_3887052.png" alt=""> -->
+                <p>Lemme intoduce my self, my name is on the top. Absolutely you've done read it by yourself.</p>
+                <p>I'm a front end developer at nocompany. Yeah... I dont have any jobs to any company. So, hire me right now. Thanks</p>
             </div>
         </div>
     </section>
-    <!-- Akhir About -->
-    <!-- Portofolio -->
-    <section class="portofolio" id="portofolio">
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2 class="text-center">Portofolio</h2>
-                    <hr>
-                </div>
+            <div class="title">
+                <h1>Gallery</h1>
             </div>
-            <div class="row ">
-                <div class="col-sm-4">
-                    <a href="" class="thumbnail">
-                        <!-- <img src="/Gallery/IMG/Full/gans 600.png" alt=""> -->
-                        <img src="https://source.unsplash.com/random/600x400" alt="">
-                    </a>
+            <div class="gallery-image">
+                <div class="column">
+                    <img src="https://source.unsplash.com/random/300x400" style="width:100%">
+                    <img src="https://source.unsplash.com/random/300x100" style="width:100%">
+                    <img src="https://source.unsplash.com/random/300x300" style="width:100%">
+                    <!-- <img src="https://source.unsplash.com/random/300x401" style="width:100%"> -->
+                    <img src="https://source.unsplash.com/random/300x200" style="width:100%">
+                    <!-- <img src="https://source.unsplash.com/random/300x250" style="width:100%"> -->
                 </div>
-                <div class="col-sm-4">
-                    <a href="" class="thumbnail">
-                        <img src="https://source.unsplash.com/random/600x400" alt="">
-                        <!-- <img src="/Gallery/IMG/Full/Nikah 600.png" alt=""> -->
-                    </a>
-                </div>
-                <div class="col-sm-4">
-                    <a href="" class="thumbnail">
-                        <img src="https://source.unsplash.com/random/600x400" alt="">
-                        <!-- <img src="/Gallery/IMG/Full/Peace 600.png" alt=""> -->
-                    </a>
+                <div class="column">
+                    <img src="https://source.unsplash.com/random/400x150" style="width:100%">
+                    <img src="https://source.unsplash.com/random/400x200" style="width:100%">
+                    <img src="https://source.unsplash.com/random/400x400" style="width:100%">
+                    <!-- <img src="https://source.unsplash.com/random/400x300" style="width:100%"> -->
+                    <img src="https://source.unsplash.com/random/400x250" style="width:100%">
+                    <!-- <img src="https://source.unsplash.com/random/400x401" style="width:100%"> -->
                 </div>
             </div>
         </div>
     </section>
-    <!-- Akhir Portofolio -->
 
-    <!-- Contact -->
+    <!-- caontact -->
     <section class="contact" id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <h2> Contact</h2>
-                    <hr>
-                </div>
+            <div class="title">
+                <h1>Contact Him</h1>
             </div>
             <div class="row">
-                <div class="col-sm-12">
-                    <form action="" class="col-sm-8 col-sm-offset-2">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" name="" id="name" class="form-control" placeholder="Input Your Nama">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" class="form-control" placeholder="Input YourEmail">
-                        </div>
-                        <div class="form-group">
-                            <label for="telp">Telepon</label>
-                            <input type="tel" name="" id="telp" class="form-control"
-                                placeholder="Input Your Phone Number">
-                        </div>
-                        <label for="category">Category</label>
-                        <select class="form-control" id="category">
-                            <option value="">-- Choose Category --</option>
-                            <option value="">Web Design</option>
-                            <option value="">Web Developer</option>
-                            <option value="">Back End</option>
-                        </select>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea rows="10" id="message" class="form-control" placeholder="input Your Message">
-                            </textarea>
-                        </div>
-                        <button type="submit" class="btn btn-success">SEND</button>
-                    </form>
+                <div class="card card-name">
+                    <h3>Get</h3>
+                    <h3>In</h3>
+                    <h3>Touch</h3>
                 </div>
+                <div class="card card-social">
+                    <p>For any conversation</p>
+                    <ul>
+                        <li><img src="img/ig.png"><a href="">Instagram</a></li>
+                        <li><img src="img/twitter.png"><a href="">Twitter</a></li>
+                        <li><img src="img/github 2.png"><a href="">GitHub</a></li>
+                    </ul>
+                </div>
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" name="" id="name" autocomplete="off">
+                    <label for="mail">Mail</label>
+                    <input type="email" name="" id="mail" autocomplete="off">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="" id="subject" autocomplete="off">
+                    <label for="message">Message</label>
+                    <textarea name="" id="message" cols="30" rows="10"></textarea>
+                    <div id="button">
+                        <span class="bg"></span>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+                <!-- <img src="img/contact.png" alt=""> -->
             </div>
         </div>
     </section>
-    <!-- Akhir Contact -->
 
-    <!-- Footer -->
+    <!-- footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <p>&copy; 2021 | Built by. <a href="https://instagram.com/hah.mamattt"
-                            target="_blank">achmadSyarif</a> <i class="glyphicon glyphicon-send"></i></p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <a class="btn-instagram" href="https://instagram.com/hah.mamattt">Follow My Instagram</a>
-                </div>
-            </div>
+            <h6>Copyright <span style="font-size: 23px;">&COPY;</span> 2021 | Achmad Syarif </h6>
         </div>
     </footer>
-    <!-- Akhir Footer -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <!-- <script src="/bootstrap-3.3.7-dist/js/bootstrap.js"></script> -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="/bootstrap-3.3.7-dist/js/jquery-3.6.0.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+    <script src="WEB.js"></script>
+
 </body>
-
 </html>
