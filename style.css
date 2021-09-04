@@ -597,7 +597,7 @@ section#gallery {
 .card.card-social li {
     position: relative;
 }
-.card.card-social a {
+.card.card-social .anakanLink {
     position: absolute;
     top: 25%;
     left: 20%;
@@ -613,7 +613,11 @@ section#gallery {
 .card.card-social p {
     font-size: 1.7rem;
 }
-
+.hrefImage {
+    /* margin: 20px; */
+    margin-left: 5%;
+    position: relative;
+}
 
 
 
@@ -842,8 +846,9 @@ footer{
         display: flex;
         /* grid-auto-flow: column; */
         justify-content: space-around;
+        margin-top: 5%;
     }
-    .card.card-social a {
+    .card.card-social .anakanLink {
         display: none;
     }
     .card.card-social p{
