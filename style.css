@@ -641,7 +641,7 @@ input,textarea {
     margin: 10px 0;
     font-family: 'Roboto Mono', monospace;
     border: none;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid rgb(199, 198, 198);
     outline: none;
 }
 textarea {
@@ -826,9 +826,6 @@ footer{
         "form form"
         "card1 card1";
     }
-    input, textarea {
-        width: 100%;
-    }
     .card:not(.card-name) {
         padding: 5%;
     }
@@ -849,6 +846,11 @@ footer{
     .card.card-social p{
         text-align: center;
         font-size: 1.3rem;
+    }
+    input,
+    textarea {
+        width: 100%;
+        font-size: .9rem;
     }
     #button {
         display: flex;
