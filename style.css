@@ -275,9 +275,12 @@ nav .container {
 .menu-bar i {
     width: 33px;
     height: 4px;
-    background-color: black;
+    background-color: floralwhite;
     border-radius: 100000px;
     transition: all .2s;
+}
+.menu-bar.menu-click i {
+    background-color: black;
 }
 .menu-click i:nth-child(2) {
     opacity: 0;
