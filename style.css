@@ -470,7 +470,7 @@ nav .container {
     border-radius: 30px;
 }
 
-section {
+section:not(.jumbotron) {
     border-top: 1.5px solid #15edf8;
 }
 
