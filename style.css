@@ -745,8 +745,8 @@ textarea:focus {
 	border: 0.5px solid #15edf8;
 }
 
-input:placeholder-shown ~ label{
-  opacity: 0;
+input:placeholder-shown ~ label {
+	opacity: 0;
 }
 
 .row form button {
@@ -982,7 +982,7 @@ footer {
 		margin: 15px 0;
 	}
 
-	.form-wrapper label:not(#messageLabel) {
+	/* .form-wrapper label:not(#messageLabel) {
 		top: -15%;
 	}
 
@@ -990,7 +990,7 @@ footer {
 		top: -2%;
 	}
 
-.form-wrapper:focus-within label:not(#messageLabel) {
-	top: -60%;
-}
+	.form-wrapper:focus-within label:not(#messageLabel) {
+		top: -60%;
+	} */
 }

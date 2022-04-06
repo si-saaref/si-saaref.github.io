@@ -5,12 +5,14 @@ menu.addEventListener('click', function () {
 	navlink.classList.toggle('slide');
 });
 
-$(window).on('load', function () {
-	$('.jumbodesc h3 span').each(function (i) {
-		setTimeout(function () {
-			$('.jumbodesc h3 span').eq(i).addClass('muncul');
-		}, 200 * (i + 1));
-	});
+$(window).ready(function () {
+	setTimeout(() => {
+		$('.jumbodesc h3 span').each(function (i) {
+			setTimeout(function () {
+				$('.jumbodesc h3 span').eq(i).addClass('muncul');
+			}, 300 * (i + 1));
+		});
+	}, 500);
 });
 
 // const nameJumbo = document.querySelectorAll('.jumbodesc h3 span');
@@ -73,11 +75,20 @@ $(window).scroll(function () {
 $(document).ready(function () {
 	$('.inputForm').on('input', function () {
 		if ($(this).val().length === 0) {
-			$(this).siblings('label').css('top', '0');
+			if (window.matchMedia('(max-width: 768px').matches) {
+				$(this).siblings('label').css('top', '-15%');
+				$(this).siblings('#messageLabel').css('top', '-2%');
+			} else {
+				$(this).siblings('label').css('top', '0');
+			}
 			console.log($('.inputForm').siblings('label'));
 			console.log($('.inputForm').value);
 		} else {
-			$(this).siblings().css('top', '-50%');
+			if (window.matchMedia('(max-width: 768px').matches) {
+				$(this).siblings().css('top', '-60%');
+			} else {
+				$(this).siblings().css('top', '-50%');
+			}
 			$(this).siblings('#messageLabel').css('top', '-30%');
 		}
 	});
