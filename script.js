@@ -72,6 +72,8 @@ $(window).scroll(function () {
 });
 
 // ?https://stackoverflow.com/questions/1854556/check-if-inputs-are-empty-using-jquery
+
+// ?https://stackoverflow.com/questions/19291873/window-width-not-the-same-as-media-query
 $(document).ready(function () {
 	$('.inputForm').on('input', function () {
 		if ($(this).val().length === 0) {
